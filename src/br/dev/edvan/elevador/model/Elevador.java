@@ -13,7 +13,7 @@ public class Elevador {
 	}
 
 	private void subir() {
-		for (int i = andarAtual ; i != andarDestino; andarAtual++) {
+		for (int i = andarAtual ; i != andarDestino; i++) {
 			if (andarAtual == andarDestino) {
 				atualizarDestino();
 			}
